@@ -1,0 +1,27 @@
+{
+  "name": "fgv-package",
+  "version": "1.0.0",
+  "description": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "This is a test project for WD. This project is a module for form generation and validation."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepakhc/fgv-package.git"
+  },
+  "keywords": [
+    "form",
+    "generation",
+    "validation"
+  ],
+  "author": "Deepak H C",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Deepakhc/fgv-package/issues"
+  },
+  "homepage": "https://github.com/Deepakhc/fgv-package#readme",
+  "dependencies": {
+    "handlebars": "^4.0.5"
+  }
+}
