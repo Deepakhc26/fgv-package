@@ -1,0 +1,55 @@
+﻿html
+head
+style.
+      h2 {
+      color: green;
+      }
+      form {
+      background: #e5e5e5;
+      width: 375px;
+      }
+      label {
+      position: relative;
+      width: 200px;
+      top: 6px;
+      }
+      .required label {
+      font-weight: bold;
+      }
+      .field {
+      padding: 10px 5px 15px 5px;
+      position: relative;
+      }
+      .field input, .field select, .field textarea {
+      margin: -20px 0 0 175px;
+      width: 180px;
+      }
+      .field textarea {
+      margin-top: -15px;
+      }
+      .field input[type="checkbox"] {
+      position: relative;
+      margin-left: 32px;
+      top: 4px;
+      }
+      .field fieldset input {
+      margin: 0;
+      width: 20px;
+      }
+      .error {
+      background: #93c9df;
+      }
+      .error_msg {
+      color: red;
+      margin: -15px 0 0 0;
+      padding: 5px 0;
+      }
+      button[type="submit"] {
+      margin-top: 50px;
+      }
+
+body
+h2= title
+form(method='POST')
+  !{form}
+  button.button Submit
