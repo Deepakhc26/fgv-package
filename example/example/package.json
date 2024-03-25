@@ -8,7 +8,7 @@
     "email": "deepakhc26@gmail.com"
   },
   "dependencies": {
-    "express": "3.4.4",
+    "express": "4.19.2",
     "jade": "*",
     "stylus": "*",
     "validate.js": "^0.9.0"
